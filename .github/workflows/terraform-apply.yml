@@ -18,6 +18,7 @@ env:
 
 jobs:
   terraform:
+    environment: "testing_tf"
     name: "Terraform Apply"
     runs-on: ubuntu-latest
     permissions: # granular permissions
