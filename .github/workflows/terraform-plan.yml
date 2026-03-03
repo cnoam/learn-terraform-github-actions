@@ -14,11 +14,11 @@ env:
   #TF_API_TOKEN: "${{ secrets.TF_TOKEN }}"
   #TF_WORKSPACE: "gh-actions-demo"
   TF_TOKEN_app_terraform_io: ${{ secrets.TF_TOKEN }}  # HCP state/locking
-  #ARM_USE_OIDC: "true"
-  #ARM_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}
-  #ARM_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
-  #ARM_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
-  #CONFIG_DIRECTORY: "./"
+  ARM_USE_OIDC: "true"
+  ARM_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}
+  ARM_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
+  ARM_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+  CONFIG_DIRECTORY: "./"
 
 jobs:
   terraform:
