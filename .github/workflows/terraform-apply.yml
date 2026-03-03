@@ -6,10 +6,10 @@ on:
       - main
 
 env:
-  TF_CLOUD_ORGANIZATION: "noam_learning"
-  TF_API_TOKEN: "${{ secrets.TF_TOKEN }}"
-  TF_WORKSPACE: "gh-actions-demo"
-  CONFIG_DIRECTORY: "./"
+  #TF_CLOUD_ORGANIZATION: "noam_learning"
+  #TF_API_TOKEN: "${{ secrets.TF_TOKEN }}"
+  #TF_WORKSPACE: "gh-actions-demo"
+  #CONFIG_DIRECTORY: "./"
   TF_TOKEN_app_terraform_io: ${{ secrets.TF_TOKEN }}
   ARM_USE_OIDC: "true"
   ARM_CLIENT_ID: ${{ secrets.ARM_CLIENT_ID }}
