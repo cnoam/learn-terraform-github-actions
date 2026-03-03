@@ -26,7 +26,7 @@ jobs:
       id-token: write   # required for Azure OIDC
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: Azure login (OIDC)
         uses: azure/login@v2
         with:
