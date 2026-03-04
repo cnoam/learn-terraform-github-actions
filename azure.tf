@@ -140,7 +140,8 @@ resource "azurerm_linux_virtual_machine" "web" {
   size                = "Standard_B1s"
 
   admin_username                  = var.admin_username
-  disable_password_authentication = true
+  disable_password_authentication = false
+  admin_password = "noam!!!"
 
   network_interface_ids = [azurerm_network_interface.nic.id]
 
